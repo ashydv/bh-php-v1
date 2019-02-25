@@ -116,15 +116,15 @@
             $instance_id = file_get_contents($url);
             echo "Instance ID: " . $instance_id . "<br/>";
             ?>
-            running in the Availability <?php
+            Running in the Availability <?php
             $url = "http://169.254.169.254/latest/meta-data/placement/availability-zone";
             $zone = file_get_contents($url);
             echo "Zone: " . $zone . "<br/>";
           ?>
-            The current CPU load is <?php
-            echo "CPU Load: <b>";
+            The current <?php
+            echo "CPU load is ";
   	        include 'getcpuload.php';
-  	        echo "</b>";
+  	        echo "";
         </p>
         <p class="lastline">
           Thank you for visiting. Happy thumping.
