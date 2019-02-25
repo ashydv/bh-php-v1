@@ -121,6 +121,10 @@
             $zone = file_get_contents($url);
             echo "Zone: " . $zone . "<br/>";
           ?>
+            The current CPU load is <?php
+            echo "CPU Load: <b>";
+  	        include 'getcpuload.php';
+  	        echo "</b>";
         </p>
         <p class="lastline">
           Thank you for visiting. Happy thumping.
