@@ -120,11 +120,12 @@
             $url = "http://169.254.169.254/latest/meta-data/placement/availability-zone";
             $zone = file_get_contents($url);
             echo "Zone: " . $zone . "<br/>";
-          ?>
+            ?>
             The current <?php
             echo "CPU load is ";
   	        include 'getcpuload.php';
   	        echo "";
+            ?>
         </p>
         <p class="lastline">
           Thank you for visiting. Happy thumping.
