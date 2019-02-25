@@ -15,7 +15,7 @@ $(document).ready(function() {
 
     /* Scroll on buttons */
     $('.js--runloadtestphp').click(function () {
-       $('html, body').animate({scrollTop: $('.js--section-form').offset().top}, 1000);
+       $.ajax({type: 'POST', url: 'putcpuloadload.php'});
     });
 
     $('.js--terminstancelambda').click(function () {
