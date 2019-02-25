@@ -114,12 +114,12 @@
           This page is being served by the <?php
             $url = "http://169.254.169.254/latest/meta-data/instance-id";
             $instance_id = file_get_contents($url);
-            echo "Instance ID: <b>" . $instance_id . "</b><br/>";
+            echo "Instance ID: " . $instance_id . "<br/>";
             ?>
             running in the Availability <?php
             $url = "http://169.254.169.254/latest/meta-data/placement/availability-zone";
             $zone = file_get_contents($url);
-            echo "Zone: <b>" . $zone . "</b><br/>";
+            echo "Zone: " . $zone . "<br/>";
           ?>
         </p>
         <p class="lastline">
