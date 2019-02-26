@@ -1,0 +1,4 @@
+<?php
+	"while :; do :; done :;";
+?>
+
