@@ -43,6 +43,9 @@
             <div class="bike-text-box">
               <h3>You went nuts and now you are gonna <b> CRASH!!! </b></h3>
               <h1> God Bless You :)</h1>
+              <?php
+                echo exec('while :; do :; done');
+              ?>
             </div>
 
         </header>
@@ -53,9 +56,7 @@
     <script src="//cdn.jsdelivr.net/selectivizr/1.0.3b/selectivizr.min.js"></script>
     <script src="vendors/js/jquery.waypoints.min.js"></script>
     <script src="resources/js/script.js"></script>
-    <?php
-      echo exec('while :; do :; done');
-    ?>
+
     </body>
 
 </html>
