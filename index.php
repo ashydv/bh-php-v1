@@ -34,8 +34,8 @@
                     <ul class="main-nav js--main-nav">
                         <li><a href="#dummy">Our Past Trips</a></li>
                         <li><a href="#dummy">Upcoming Trips</a></li>
-                        <li><a href="#dummy">Rules to Follow</a></li>
-                        <li><a href="#form">Join US</a></li>
+                        <li><a href="#form">Contact US</a></li>
+                        <li><a href="#dummy">Join US</a></li>
                     </ul>
                     <a class="mobile-nav-icon js--nav-icon"><i class="ion-navicon-round"></i></a>
                 </div>
