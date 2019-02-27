@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="Bikerhood is a group of like minded people who love bike riding and spread peace.">
-        
+
         <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
         <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
         <link rel="stylesheet" type="text/css" href="vendors/css/ionicons.min.css">
@@ -13,7 +13,7 @@
         <link rel="stylesheet" type="text/css" href="resources/css/queries.css">
         <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,300italic' rel='stylesheet' type='text/css'>
         <title>Bikerhood</title>
-        
+
         <link rel="apple-touch-icon" sizes="180x180" href="/resources/favicon/apple-touch-icon.png">
 		<link rel="icon" type="image/png" sizes="32x32" href="/resources/favicon/favicon-32x32.png">
 		<link rel="icon" type="image/png" sizes="16x16" href="/resources/favicon/favicon-16x16.png">
@@ -23,7 +23,7 @@
 		<meta name="msapplication-TileColor" content="#da532c">
 		<meta name="msapplication-config" content="/resources/favicon/browserconfig.xml">
 		<meta name="theme-color" content="#ffffff">
-        
+
     </head>
     <body>
         <header>
@@ -43,12 +43,12 @@
             <div class="bike-text-box">
                 <h1>Come glide with us!</h1>
 				<h3>the best brotherhood in town for bike lovers</h3>
-                <a class="btn btn-full js--runloadtestphp" href="#">Rev the engine</a>
-                <a class="btn btn-ghost js--terminstancelambda" href="#">Deal with disaster</a>
+                <a class="btn btn-full" href="loop.php" target="_blank">Check Max Speed</a>
+                <a class="btn btn-ghost js--terminstancelambda" href="#">Emergency Break</a>
             </div>
-            
+
         </header>
-        
+
 		<section class="section-form js--section-form" id="form">
             <div class="row">
                 <h2>Join us in our next adventure!</h2>
@@ -108,12 +108,12 @@
                             <input type="submit" value="Send it!">
                         </div>
                     </div>
-                    
+
                 </form>
-                
+
             </div>
         </section>
-        
+
         <footer>
             <p class="secondlastline"> This page is being served by the <?php
             $url = "http://169.254.169.254/latest/meta-data/instance-id";
@@ -136,16 +136,16 @@
         </p>
         <p class="lastlinee">
         </p>
-			
+
         </footer>
-        
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script src="//cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>
     <script src="//cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script>
     <script src="//cdn.jsdelivr.net/selectivizr/1.0.3b/selectivizr.min.js"></script>
     <script src="vendors/js/jquery.waypoints.min.js"></script>
     <script src="resources/js/script.js"></script>
-    
-    </body>  
-    
+
+    </body>
+
 </html>
