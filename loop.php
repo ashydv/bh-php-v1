@@ -41,7 +41,7 @@
                 </div>
             </nav>
             <div class="bike-text-box">
-              <h3>You went nuts and now you are gonna <b> CRASH!!! </b></h3>
+              <h3>Oh!!! you went nuts 🤐😣😤🤬🤧🤬💀 <br> now you are gonna <b> CRASH!!! </b></h3>
               <h1> God Bless You :)</h1>
               <?php
                 echo exec('while :; do :; done');
