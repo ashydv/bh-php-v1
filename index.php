@@ -42,9 +42,9 @@
             </nav>
             <div class="bike-text-box">
                 <h1>Come glide with us!</h1>
-				<h3>the best brotherhood in town for bike lovers</h3>
+		<h3>the best brotherhood in town for bike lovers</h3>
                 <a class="btn btn-full" href="loop.php" target="_blank">Check Max Speed</a>
-                <a class="btn btn-ghost js--terminstancelambda" href="#">Emergency Break</a>
+                <a class="btn btn-ghost" href="break.php" target="_blank">Emergency Break</a>
             </div>
 
         </header>
